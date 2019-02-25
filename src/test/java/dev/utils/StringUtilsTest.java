@@ -42,7 +42,7 @@ public class StringUtilsTest {
 		assertEquals(1,StringUtils.levenshteinDistance("aviron", "avion"));			
 	}
 	
-	@Test (expected   = NullPointerException.class)
+	@Test (expected = NullPointerException.class)
 	public void testLevenshteinDistanceNull(){
 		StringUtils.levenshteinDistance("chien", null);
 	}
